@@ -1,0 +1,86 @@
+ body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #003f5c, #2f4b7c, #665191);
+      margin: 0;
+      padding: 0;
+      color: #e0f7fa;
+	  background-attachment: fixed;
+	  background-image: url(Materijali/pozadina.webp);
+	  background-repeat: no-repeat;
+    }
+
+    header {
+      background:#c499ff;
+      color: #fffff;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    nav {
+      background-color: rgba(0, 180, 216, 0.2);
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ade8f4;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    nav a:hover {
+      background-color: #00b4d8;
+      color: #03045e;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 30px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    h3 {
+      color: #90e0ef;
+      border-bottom: 2px solid #48cae4;
+      padding-bottom: 5px;
+    }
+
+    p, li {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    ul, ol {
+      margin-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #c499ff;
+      color: white;
+      margin-top: 60px;
+    }
+
+    q {
+      font-style: italic;
+      color: #caf0f8;
+    }
