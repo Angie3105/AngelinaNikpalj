@@ -17,6 +17,11 @@
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
 
+    h1 {
+	    font-family: 'AngelinaNikpalj';
+	    src: url('Materijali/AngelinaNikpalj.ttf') format('truetype')
+	}
+
     nav {
       background-color: rgba(0, 180, 216, 0.2);
       padding: 10px 0;
